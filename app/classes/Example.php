@@ -18,7 +18,7 @@ public function index()
     echo '<br/>';
     echo $this->lastName;
     echo '<br/>';
-    echo $this->firstName.$this->lastName;
+    echo $this->firstName.' &nbsp'.$this->lastName;
 
     /*echo $this->firstNumber;*/
 
